@@ -1,0 +1,42 @@
+print("mas sobre funciones")
+#aqui se escriben las funciones
+
+print("calculando suma")
+def suma_ab(a,b):
+    s=a+b
+    return s
+#llamadas a funciones
+n1=int(input("ingresa el primer numero "))
+n2=int(input("ingresa el segundo numero "))
+suma=suma_ab(n1,n2)
+print(f"la suma de {n1} + {n2} es {suma}")
+
+
+print("calculando resta")
+def resta_cd(c,d):
+    r=c-d
+    return r
+n3=int(input("ingresa el primer numero "))
+n4=int(input("ingresa el segundo numero "))
+resta=resta_cd(n3,n4)
+print(f"la resta de {n3} - {n4} es {resta}")
+
+
+print("calculando multiplicacion")
+def mult_ef(e,f):
+    r=e*f
+    return r
+n5=int(input("ingresa el primer numero "))
+n6=int(input("ingresa el segundo numero "))
+mult=mult_ef(n5,n6)
+print(f"la resta de {n5} * {n6} es {mult}")
+
+
+print("calculando divicion")
+def div_gh(g,h):
+    r=g/h
+    return r
+n7=int(input("ingresa el primer numero "))
+n8=int(input("ingresa el segundo numero "))
+div=div_gh(n7,n8)
+print(f"la resta de {n7} / {n8} es {div}")
